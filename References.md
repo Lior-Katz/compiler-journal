@@ -1,0 +1,5 @@
+- The JLS ([HTML](https://docs.oracle.com/javase/specs/jls/se26/html/index.html) | [PDF](https://docs.oracle.com/javase/specs/jls/se26/jls26.pdf))
+- The [OpenJDK implementation](https://github.com/Lior-Katz/compiler-journal/tree/master/JDK%20reference) of a Java compiler
+- [`rustc`](https://github.com/rust-lang/rust/tree/main/compiler), the rust compiler written in rust 
+- rust dev guide [high level overview of the compiler](https://rustc-dev-guide.rust-lang.org/overview.html) and [description of source code representation](https://rustc-dev-guide.rust-lang.org/part-3-intro.html)
+- [Crafting Interpreters](https://craftinginterpreters.com/contents.html)
