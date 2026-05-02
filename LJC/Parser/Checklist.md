@@ -448,10 +448,10 @@
 - [x] Assignment:
 	- [x] LeftHandSide AssignmentOperator Expression
 
-- [ ] LeftHandSide: 
+- [x] LeftHandSide: 
 	- [x] ExpressionName
 	- [x] FieldAccess
-	- [ ] ArrayAccess
+	- [x] ArrayAccess
 
 - [x] AssignmentOperator: 
 	- [x] = 
@@ -681,21 +681,27 @@
 - [x] PostDecrementExpression:
 	- [x] PostfixExpression --
 
-- [ ] Primary:
-	- [ ] PrimaryNoNewArray
+- [x] Primary:
+	- [x] PrimaryNoNewArray
 	- [x] ArrayCreationExpression
 
-- [ ] PrimaryNoNewArray: 
+- [x] PrimaryNoNewArray: 
 	- [x] Literal
-	- [ ] ClassLiteral
+	- [x] ClassLiteral
 	- [x] this
-	- [ ] TypeName . this 
+	- [x] TypeName . this 
 	- [x] ( Expression )
 	- [x] ClassInstanceCreationExpression
 	- [x] FieldAccess
-	- [ ] ArrayAccess
+	- [x] ArrayAccess
 	- [x] MethodInvocation
-	- [ ] MethodReference
+	- [x] MethodReference
+
+- [x] ClassLiteral: 
+	- [x] TypeName {[ ]} . class
+	- [x] NumericType {[ ]} . class
+	- [x] boolean {[ ]} . class 
+	- [x] void . class
 
 - [ ] ClassInstanceCreationExpression:
 	- [x] UnqualifiedClassInstanceCreationExpression
@@ -740,13 +746,27 @@
 - [x] VariableInitializerList: 
 	- [x] VariableInitializer {, VariableInitializer} 
 
+- [x] ArrayAccess: 
+	- [x] ExpressionName \[ Expression \]
+	- [x] PrimaryNoNewArray \[ Expression \] 
+	- [x] ArrayCreationExpressionWithInitializer \[ Expression \]
+
 - [ ] MethodInvocation: 
-	- [ ] MethodName ( \[ArgumentList\] ) 
+	- [x] MethodName ( \[ArgumentList\] ) 
 	- [ ] TypeName . \[TypeArguments\] Identifier ( \[ArgumentList\] )
 	- [ ] ExpressionName . \[TypeArguments\] Identifier ( \[ArgumentList\] ) 
 	- [ ] Primary . \[TypeArguments\] Identifier ( \[ArgumentList\] )
 	- [ ] super . \[TypeArguments\] Identifier ( \[ArgumentList\] )
 	- [ ] TypeName . super . \[TypeArguments\] Identifier ( \[ArgumentList\] )
+
+- [ ] MethodReference: 
+	- [ ] ExpressionName :: \[TypeArguments\] Identifier 
+	- [ ] Primary :: \[TypeArguments\] Identifier
+	- [ ] ReferenceType :: \[TypeArguments\] Identifier 
+	- [ ] super :: \[TypeArguments\] Identifier 
+	- [ ] TypeName . super :: \[TypeArguments\] Identifier 
+	- [ ] ClassType :: \[TypeArguments\] new
+	- [x] ArrayType :: new
 
 - [x] SwitchExpression: 
 	- [x] switch ( Expression ) SwitchBlock
