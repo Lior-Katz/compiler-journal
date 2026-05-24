@@ -336,14 +336,17 @@
 - [x] Result:
 	- [x] UnannType
 	- [x] void
+
 - [ ] MethodDeclarator:
 	- [ ] Identifier ( \[ReceiverParameter ,\] \[FormalParameterList\] ) \[Dims\]
 		- [x] identifier
 		- [ ] receiver parameter  (doing it inline, not a separate function, so depends on below list)
 		- [x] formal paramter list
 		- [ ] dims  (doing it inline, not a separate function, so depends on below list)
+
 - [x] FormalParameterList: 
 	- [x] FormalParameter {, FormalParameter}
+
 - [ ] FormalParameter: 
 	- [ ] {VariableModifier} UnannType VariableDeclaratorId
 		- [x] modifiers
@@ -352,6 +355,7 @@
 		- [x] type
 		- [ ] variable declarator id (currently just plain identifier, no dims)
 	- [x] VariableArityParameter
+
 - [ ] VariableArityParameter:
 	- [ ] {VariableModifier} UnannType {Annotation} ... Identifier
 		- [x] modifiers
@@ -539,7 +543,6 @@
 	- [x] SwitchLabel -> Expression ; 
 	- [x] SwitchLabel -> Block 
 	- [x] SwitchLabel -> ThrowStatement 
-
 	- [x]  :
 	- [x] SwitchLabel : {SwitchLabel :} BlockStatements
 
