@@ -88,7 +88,7 @@
 	- [ ] [15.18.1.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.18.1) String Concatenation Operator `+`
 	- [ ] [15.18.2.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.18.2) Additive Operators (`+` and `-`) for Numeric Types
 
-- [ ] [15.19.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.19) Shift Operators
+- [x] [15.19.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.19) Shift Operators
 
 - [ ] [15.20.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.20) Relational Operators
 	- [ ] [15.20.1.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.20.1) Numerical Comparison Operators `<`, `<=`, `>`, and `>=`
@@ -108,7 +108,7 @@
 - [ ] [15.24.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.24) Conditional-Or Operator `||`
 
 - [ ] [15.25.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.25) Conditional Operator `? :`
-	- [ ] [15.25.1.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.25.1) Boolean Conditional Expressions
+	- [x] [15.25.1.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.25.1) Boolean Conditional Expressions
 	- [ ] [15.25.2.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.25.2) Numeric Conditional Expressions
 	- [ ] [15.25.3.](https://docs.oracle.com/javase/specs/jls/se26/html/jls-15.html#jls-15.25.3) Reference Conditional Expressions
 
