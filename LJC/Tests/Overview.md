@@ -7,6 +7,8 @@ This also involves invalid programs, asserting the compiler's outptu.
 
 #### Fuzzing
 Invoke the compiler on a large number of generated programs, verifying that it doesn't crash.
+[Test case reducers](https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html)
+[Reducers as fuzzers](https://blog.regehr.org/archives/1284)
 
 ## Test Runner
 LJC uses `nextest` instead of cargo's built-in test harness.
